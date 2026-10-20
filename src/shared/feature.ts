@@ -16,3 +16,4 @@ export function renderCard(feature: Feature): HTMLElement {
   feature.mount(body);
   return card;
 }
+export const filtered = true
